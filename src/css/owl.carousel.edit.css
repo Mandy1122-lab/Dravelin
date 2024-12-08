@@ -1,0 +1,36 @@
+/* owl.carousel.edit.css */
+.hero__items {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* 或根據您的需求調整高度 */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__items::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* 這裡使用了半透明的黑色覆蓋層來達成圖片透明度的效果 */
+    z-index: 1;
+}
+
+.hero__text {
+    position: relative;
+    z-index: 2; /* 確保文字顯示在半透明層之上 */
+    color: white; /* 根據背景圖片顏色選擇合適的文字顏色 */
+    margin-top: -175px; /* 向上移動文字 */
+}
+
+/* 這裡假設您已經在其他地方定義了.set-bg來設定背景圖片。如果沒有，您需要添加類似下面的CSS */
+.set-bg {
+    background-size: cover;
+    background-position: center;
+}
+
+/* 如果使用data-setbg來動態設置背景圖，則需要JS或者相應的CSS處理，這裡省略該處理過程 */

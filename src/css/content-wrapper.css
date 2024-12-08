@@ -1,0 +1,24 @@
+/* content-wrapper.css */
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero__slider {
+    width: 85%; /* 請根據您的設計需求調整寬度百分比 */
+}
+
+.product__sidebar {
+    flex-basis: 250px; /* 設置側邊欄的固定寬度 */
+    margin-left: 20px; /* 給側邊欄添加一些間距 */
+}
+
+.product__sidebar__view__item {
+    width: 100%; /* 調整側邊欄方塊的寬度 */
+    height: 150px; /* 調整側邊欄方塊的高度 */
+    margin-bottom: 20px; /* 添加項目之間的間距 */
+}
+
+.product__sidebar__view__item h5 {
+    font-size: 17px; /* 調整側邊欄標題的字體大小 */
+}
