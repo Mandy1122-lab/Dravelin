@@ -16,7 +16,3 @@
 
 ## 如何執行
 前往該網站：http://dv.hony.com.tw:800
-
-## 備註
-本次提交僅包含核心功能代碼與簡化樣式檔案，完整資源請參見：
-https://drive.google.com/drive/folders/1Ja3AP82UiUQcYn4ElLMm0NIyLORiy29f?usp=share_link
